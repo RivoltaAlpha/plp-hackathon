@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mwaniki Tifany - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+
 </head>
 <body>
 
@@ -32,110 +34,273 @@
     </section>
 
     <div class="container">
-        <!-- Bio Section -->
-        <section id="bio">
-            <h2>About Me</h2>
-            <p>I am a Fullstack Web Developer with expertise in Django, PHP, HTML, CSS, and JavaScript. Passionate about building efficient solutions and contributing to the tech community.</p>
-        </section>
-
-        <!-- Projects Section -->
-        <section id="projects">
-            <h2>Projects</h2>
-            <div class="project-list">
-                <div class="project">
-                    <img src="https://source.unsplash.com/300x200/?technology" alt="Project 1">
-                    <h3>Personal Notes App</h3>
-                    <p>A web app for organizing notes and tasks, built with Python and Django.</p>
-                </div>
-                <div class="project">
-                    <img src="https://source.unsplash.com/300x200/?coding" alt="Project 2">
-                    <h3>Laragigs</h3>
-                    <p>A Laravel-based job listing application connecting job seekers with employers.</p>
-                </div>
-                <div class="project">
-                    <img src="https://source.unsplash.com/300x200/?coding" alt="Project 2">
-                    <h3>Laragigs</h3>
-                    <p>A Laravel-based job listing application connecting job seekers with employers.</p>
-                </div>
-                <div class="project">
-                    <img src="https://source.unsplash.com/300x200/?coding" alt="Project 2">
-                    <h3>Laragigs</h3>
-                    <p>A Laravel-based job listing application connecting job seekers with employers.</p>
-                </div>
-                <div class="project">
-                    <img src="https://source.unsplash.com/300x200/?coding" alt="Project 2">
-                    <h3>Laragigs</h3>
-                    <p>A Laravel-based job listing application connecting job seekers with employers.</p>
-                </div>
-                <div class="project">
-                    <img src="https://source.unsplash.com/300x200/?coding" alt="Project 2">
-                    <h3>Laragigs</h3>
-                    <p>A Laravel-based job listing application connecting job seekers with employers.</p>
-                </div>
-                <div class="project">
-                    <img src="https://source.unsplash.com/300x200/?coding" alt="Project 2">
-                    <h3>Laragigs</h3>
-                    <p>A Laravel-based job listing application connecting job seekers with employers.</p>
-                </div>
-                <div class="project">
-                    <img src="https://source.unsplash.com/300x200/?coding" alt="Project 2">
-                    <h3>Laragigs</h3>
-                    <p>A Laravel-based job listing application connecting job seekers with employers.</p>
+        <h2>About Me</h2>
+        <section id="about" class="bio-section">
+            <div class="content-wrapper">
+                <div class="bio-content" id="bio">
+                    <div class="about-card">
+                        <p>
+                            I am a Computer Science student from Kenya with a robust background in various technological domains, including software development, database management, web programming, machine learning, and data science.
+                            I am passionate about continuously seeking new challenges and opportunities for growth.
+                        </p>
+                        <p>
+                            When I'm not immersed in my studies or working on projects, I enjoy skating and playing Rollball. These activities not only keep me active but also help me maintain a balanced lifestyle.
+                        </p>
+                        <p>
+                            I am eager to contribute to cutting-edge projects and collaborate with like-minded professionals to drive technological advancements by making use of my diverse skill set and a strong drive for innovation.
+                        </p>
+                    </div>
+                    <div id="experience" class="skills-card">
+                        <h3>Skills and Experience</h3>
+                        <ul>
+                            <li>Software Development: Proficient in multiple programming languages and development frameworks.</li>
+                            <li>Database Management: Experienced in designing, implementing, and managing databases.</li>
+                            <li>Web Programming: Skilled in creating dynamic and responsive web applications.</li>
+                            <li>Machine Learning & Data Science: Knowledgeable in applying machine learning algorithms and data analysis techniques to solve real-world problems.</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <!-- Experience Section -->
-        <section id="experience">
-            <h2>Experience</h2>
-            <ul>
-                <li><strong>Web Developer Intern</strong> - Built and maintained web applications using Django and React.</li>
-                <li><strong>Freelance Web Developer</strong> - Created responsive websites for clients.</li>
-            </ul>
+        <section id="experience" class="py-20 bg-gray-900">
+            <div class="container mx-auto">
+              <h2 class="text-3xl font-bold text-center mb-12 text-blue-500">Experience</h2>
+          
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Card 1: Teach2Give -->
+                <div class="bg-gray-800 text-white p-6 rounded-lg shadow-lg transform hover:translate-y-2 hover:shadow-2xl transition-transform duration-500 flex items-center space-x-4">
+                  <img 
+                    src="/images/t2g.jpeg"
+                    alt="Teach2Give Logo" 
+                    class="w-16 h-16 object-contain rounded-full" 
+                  />
+                  <div>
+                    <h3 class="text-xl font-semibold mb-2 text-teal-500">Software Development Trainee at Teach2Give</h3>
+                    <p class="mb-2 text-sm text-gray-400">May 2024 - August 2024</p>
+                    <p>
+                      I attended a software training internship where I learned how to develop full-stack applications using React, Node, Hono, PostgreSQL, TypeScript, and Azure Cloud.
+                    </p>
+                  </div>
+                </div>
+          
+                <!-- Card 2: ICTA -->
+                <div class="bg-gray-800 text-white p-6 rounded-lg shadow-lg transform hover:translate-y-2 hover:shadow-2xl transition-transform duration-300 flex items-center space-x-4">
+                  <img 
+                    src="/images/icta.jpeg" 
+                    alt="ICTA Logo" 
+                    class="w-16 h-16 object-contain rounded-full" 
+                  />
+                  <div>
+                    <h3 class="text-xl font-semibold mb-2 text-teal-500">Software Development Trainee at ICTA (ICT Authority of Kenya)</h3>
+                    <p class="mb-2 text-sm text-gray-400">May 2023 - August 2023</p>
+                    <p>
+                      I attended a software training internship where I learned how to develop full-stack applications using Laravel (a PHP framework) and SQL for the database.
+                    </p>
+                  </div>
+                </div>
+          
+                <!-- Card 3: CSK Leader -->
+                <div class="bg-gray-800 text-white p-6 rounded-lg shadow-lg transform hover:translate-y-2 hover:shadow-2xl transition-transform duration-300 flex items-center space-x-4">
+                  <img 
+                    src="/images/csk.jpeg" 
+                    alt="CSK Logo" 
+                    class="w-16 h-16 object-contain rounded-full" 
+                  />
+                  <div>
+                    <h3 class="text-xl font-semibold mb-2 text-teal-500">Leader at Computer Society of Kirinyaga (CSK)</h3>
+                    <p class="mb-2 text-sm text-gray-400">September 2022 - Present</p>
+                    <p>
+                      I currently serve as Secretary General, the Machine Learning and AI track lead and a web mentor where I organize events in the community to 
+                      guide students and enthusiasts in learning and applying machine learning techniques as well as web development skills.
+                      I also lead the KyU Tech Ladies initiative, a women-in-tech community inside CSK.
+                    </p>
+                  </div>
+                </div>
+          
+                <!-- Card 4: Microsoft Learn Student Ambassador -->
+                <div class="bg-gray-800 text-white p-6 rounded-lg shadow-lg transform hover:translate-y-2 hover:shadow-2xl transition-transform duration-500 flex items-center space-x-4">
+                  <img 
+                    src="/images/mlsa.jpeg"
+                    alt="MLSA Logo" 
+                    class="w-16 h-16 object-contain rounded-full" 
+                  />
+                  <div>
+                    <h3 class="text-xl font-semibold mb-2 text-teal-500">Microsoft Learn Student Ambassador</h3>
+                    <p class="mb-2 text-sm text-gray-400">January 2023 - Present</p>
+                    <p>
+                      As a Beta MLSA, I mentor students on Azure Cloud, AI, Web Development, and Machine Learning. I organize events and workshops to help students leverage technology for impact.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>          
+          
+          <!-- Projects Section -->
+          <section id="projects" class="projects-section">
+            <div class="container">
+                <h2 class="section-title">Featured Projects</h2>
+                <div id="projects-list" class="project-list"></div> <!-- Added this div -->
+            </div>
         </section>
 
-        <!-- Skills Section -->
-        <section id="skills">
-            <h2>Skills</h2>
-            <ul>
-                <li>HTML, CSS, JavaScript</li>
-                <li>React, Django, Laravel</li>
-                <li>Database Management (PostgreSQL, MySQL)</li>
-            </ul>
-        </section>
+        <section id="education" class="section education-section">
+            <div class="container">
+              <h2 class="section-title">Education</h2>
+          
+              <div class="education-grid">
+                <div class="education-card">
+                  <img src="https://th.bing.com/th/id/OIP.tBakW_oDRdDqR0JroWxjNgHaEM?w=315&h=180&c=7&r=0&o=5&pid=1.7" alt="Kirinyaga University" class="education-img">
+                  <h3>Kirinyaga University</h3>
+                  <p>Bachelor's Degree in Computer Science. Focused on software engineering, data structures, and web development.</p>
+                </div>
+          
+                <div class="education-card">
+                  <img src="https://th.bing.com/th?id=OIP.YEpxxIGDjjh60yLcyBNlXwAAAA&w=280&h=65&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" alt="Teach2give" class="education-img">
+                  <h3>Teach2give Software Training</h3>
+                  <p>Intensive software training program aimed at equipping participants with practical skills in full-stack web development.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          
 
         <!-- Services Section -->
-        <section id="services">
+        <section id="services" class="services">
             <h2>Services</h2>
-            <ul>
-                <li>Website Development</li>
-                <li>Database Management</li>
-                <li>Software Consulting</li>
-            </ul>
-        </section>
+            <div class="services-grid">
+              <div class="service">
+                <i class="fas fa-code"></i>
+                <h3>Web Development</h3>
+                <p>Building responsive and interactive websites using modern technologies.</p>
+              </div>
+              <div class="service">
+                <i class="fas fa-chart-bar"></i>
+                <h3>Data Analysis</h3>
+                <p>Extracting insights and building data-driven solutions for informed decisions.</p>
+              </div>
+              <div class="service">
+                <i class="fas fa-robot"></i>
+                <h3>AI and Machine Learning Engineering</h3>
+                <p>Creating intelligent systems that learn and adapt to user needs.</p>
+              </div>
+              <div class="service">
+                <i class="fas fa-project-diagram"></i>
+                <h3>Product Management</h3>
+                <p>Driving product vision and strategy for successful project delivery.</p>
+              </div>
+              <div class="service">
+                <i class="fas fa-cloud"></i>
+                <h3>Cloud Services</h3>
+                <p>Leveraging cloud infrastructure to scale and secure your applications.</p>
+              </div>
+              <div class="service">
+                <i class="fas fa-chalkboard-teacher"></i>
+                <h3>Consulting</h3>
+                <p>Providing expertise and guidance to help you achieve your tech goals.</p>
+              </div>
+              <div class="service">
+                <i class="fas fa-user-friends"></i>
+                <h3>Mentorship & Coaching</h3>
+                <p>Guiding individuals and teams to reach their professional potential.</p>
+              </div>
+              <div class="service">
+                <i class="fas fa-bullhorn"></i>
+                <h3>Social Media Management</h3>
+                <p>Creating and managing content strategies to enhance brand presence.</p>
+              </div>
+                <div class="service">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Mobile App Development</h3>
+                    <p>Designing and developing mobile applications for iOS and Android platforms.</p>
+                </div>
+            </div>
+          </section>
+          
 
         <!-- Community Involvement -->
-        <section id="community">
-            <h2>Community</h2>
-            <p>Active member of Microsoft Learn Student Ambassadors, contributing to tech workshops and mentoring developers.</p>
-        </section>
+        <section id="community" class="section community-section">
+            <div class="container">
+              <h2 class="section-title blue-text">Community Engagement</h2>
+          
+              <div class="engagement-card">
+                <p class="engagement-description">
+                  Actively involved in various tech communities, leading initiatives and mentoring in the following:
+                </p>
+                <ul class="engagement-list">
+                  <li>Gold Microsoft Learn Student Ambassador (MLSA)</li>
+                  <li>Computer Society of Kirinyaga (CSK) - Secretary General</li>
+                  <li>Kenya Data Platform User Group - Event Organizer</li>
+                  <li>AI & ML Track Lead at CSK</li>
+                </ul>
+              </div>
+            </div>
+          </section>   
 
         <!-- Contact Section -->
-        <section id="contact">
-            <h2>Contact Me</h2>
-            <form class="contact-form">
-                <input type="text" placeholder="Your Name" required>
-                <input type="email" placeholder="Your Email" required>
-                <textarea placeholder="Your Message" required></textarea>
-                <button type="submit">Send</button>
-            </form>
-        </section>
+        <section id="contact" class="contact-section">
+            <div class="container">
+              <h2 class="section-title"><span class="icon">📧</span> Contact Me</h2>
+          
+              <div class="contact-wrapper">
+                <!-- Contact Info -->
+                <div class="contact-info">
+                  <div class="info-box">
+                    <span class="info-icon">📍</span>
+                    <div>
+                      <h3>Location</h3>
+                      <p>Kutus, Kenya</p>
+                    </div>
+                  </div>
+                  <div class="info-box">
+                    <span class="info-icon">✉️</span>
+                    <div>
+                      <h3>Email</h3>
+                      <p>mwanikitiffany@gmail.com</p>
+                    </div>
+                  </div>
+                  <div class="info-box">
+                    <span class="info-icon">📞</span>
+                    <div>
+                      <h3>Phone</h3>
+                      <p>(+254) 797677629</p>
+                    </div>
+                  </div>
+                </div>
+          
+                <!-- Contact Form -->
+                <div class="contact-form">
+                  <h3 class="form-title">Reach Out!</h3>
+                  <form id="emailForm">
+                    <input type="text" name="fullName" placeholder="Full Name" required />
+                    <input type="email" name="email" placeholder="Email Address" required />
+                    <input type="text" name="subject" placeholder="Subject" required />
+                    <textarea name="message" rows="5" placeholder="Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                  </form>
+                  <p id="form-message" class="form-message"></p>
+                </div>
+              </div>
+            </div>
+          </section>
+          
     </div>
 
     <footer>
-        <p>© 2024 Mwaniki Tifany. All rights reserved.</p>
+        <div className="container mx-auto flex justify-between items-center">
+            <div>mwanikitiffany&copy; 2024 . All rights reserved.</div>
+            <div className="flex space-x-4">
+              <a href="https://github.com/RivoltaAlpha" aria-label="GitHub" target='blank'><Github /></a>
+              <a href="https://www.linkedin.com/in/mwaniki-tifany" aria-label="LinkedIn" target='blank'><Linkedin /></a>
+              <a href="https://x.com/RivoltaAlpha" aria-label="Twitter" target='blank'><Twitter /></a>
+            </div>
+          </div>
     </footer>
 
     <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+
 </body>
 </html>
